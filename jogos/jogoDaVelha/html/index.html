@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="../css/index.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da velha</title>
+</head>
+<body>
+    <div id="containerCadastro">
+        <div id="card">
+            <h1>Bem vindo ao jogo da velha!</h1>
+            <p>Insira o nome dos jagadores</p>
+            <input type="text" name="jogador1" id="input1" placeholder="Jogador 1">
+            <input type="text" name="jogador2" id="input2" placeholder="Jogador 2">
+            <button type="button" onclick="cadastro()">Enviar</button>
+        </div>
+    </div>
+
+    <script src="../js/jogadores.js"></script>
+    <script src="../js/index.js"></script>
+</body>
+<button type="button" onclick="resetar()">Resetar</button>
+</html>

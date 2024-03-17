@@ -1,0 +1,79 @@
+body{
+    width: 100%;
+    height: 620px;
+    margin: 0;
+    padding: 0;
+    background-color: #eee;
+
+}
+#main{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#tabuleiro{
+    width: 650px;
+    height: 620px;
+    box-shadow: 0 0 15px black;
+    border-radius: 10px;
+    background-color: white;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.linhas{
+    width: 630px;
+    height: 75px;
+    border-radius: 5px;
+    gap: 5px;
+}
+#tabuleiro div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.linhas div{
+    width: 95px;
+    height: 70px;
+    box-shadow: 0 0 3px black;
+    border-radius: 5px;
+    transition: 0.4s;
+}
+.linhas div:hover{
+    padding: 1px;
+    transition: 0.4s;
+}
+.btnParteSuperior{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: none;
+    box-shadow: 0 0 5px black;
+    transition: 0.4s;
+    background-color: white;
+}
+.btnParteSuperior:hover{
+    padding: 10px;
+    transition: 0.4s;
+    background-color: #dad7d7;
+}
+.btnParteInferior{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: none;
+    box-shadow: 0 0 1px black;
+    transition: 0.4s;
+    background-color: rgb(34, 34, 34);
+}
+.btnParteInferior:hover{
+    padding: 10px;
+    transition: 0.4s;
+    background-color: black;
+}

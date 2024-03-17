@@ -1,0 +1,114 @@
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#container{
+    width: 100%;
+    height: 100%;
+    padding: 40px; 
+}
+#conateinerImgDica{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#Divimg #img{
+    width: 250px;
+    height: 250px;
+    margin: 0 auto;
+    border-radius: 20px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#dica{
+    margin: 0 auto;
+    width: 150px;
+    height: 25px;
+    box-shadow: 0 0 3px black;
+    border-radius: 20px;
+    text-align: center;
+    display: none;
+    font-weight: 100;
+}
+#letrasAcionadas{
+    margin-top: 50px;
+    width: 380px;
+    height: 28px;
+    box-shadow: 0 0 3px black;
+    border-radius: 25px;
+    padding: 10px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+#palavra{
+    margin: 0 auto;
+    width: 500px;
+    height: 50px;
+    border-radius: 20px;
+    box-shadow: 0 0 3px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px
+}
+.letras{
+    margin: 0 4px 0 4px;
+    border-bottom: 1px solid grey;
+    width: 8px;
+    height: 40px;
+    gap: 6px;
+}
+p{
+    padding: 0;
+    margin: 0;
+}
+#teclado{
+    margin: 0 auto;
+    width: 1000px;
+    height: 300px;
+    box-shadow: 0 0 3px black;
+    border-radius: 10px;
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    background:url(../img/SimpsonDuvida.png) no-repeat right;
+
+} 
+#tamanhoTeclado{
+    width: 720px;
+    height: 170px;
+}
+.btnTeclado{
+    width: 40px;
+    height: 40px;
+    border: none;
+    box-shadow: 0 0 3px black;
+    border-radius: 5px;
+    margin: 10px 20px 0 0 ;
+    transition: 6ms;
+    background-color: white;
+}
+#imgControl{
+    width: 30px;
+    height: 30px;
+}
+.btnTeclado:hover{
+    padding: 8px;
+    box-shadow: 0 0 6px yellow;
+    transition: 6ms;
+}
+.btnTeclado:active{
+    background-color: yellow ;
+    transition: 5ms;
+}

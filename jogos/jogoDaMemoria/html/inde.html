@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <link rel="stylesheet" href="../css/index.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da memoria</title>
+</head>
+
+<body>
+    <!-- bloco principal -->
+    <div id="blocoMain">
+
+        <!-- bloco menu -->
+        <div id="blocoMenu">
+
+            <!-- div imagem -->
+            <div id="imagem">
+                <img src="../images/rick-and-morty.gif" alt="">
+            </div>
+            <!-- fim da div imagem -->
+
+            <!-- card do menu -->
+            <div id="cardMenu">
+                <h1>Ola! Bem vindo ao jogo da memoria</h1>
+                <p>Por favor digite o seu nome:</p>
+                <input type="text" name="name" id="firtsName" placeholder="Nome">
+                <button type="button" onclick="lerNome()">Enviar</button>
+            </div>
+            <!-- fim do card do menu -->
+
+
+        </div>
+        <!-- fim do bloco menu -->
+
+        <!-- Cartas -->
+        <div id="cartas">
+
+            <h1 id="playerName"></h1>
+
+            <div id="linha1">     
+            </div>
+
+            <div id="linha2">
+            </div>
+
+            <div id="linha3">
+            </div>
+
+        </div>
+        <!-- fim das Cartas -->
+    </div>
+    <script src="../js/cartas.js"></script>
+    <script src="../js/index.js"></script>
+</body>
+
+</html>
